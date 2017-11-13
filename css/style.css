@@ -1,0 +1,102 @@
+body{
+	background-size:1350px;
+	font-family: 'Oswald', sans-serif;
+	color:white;
+}
+
+.header{
+	width:1350px;
+	background-color:#52c3c9;
+	height:200px;
+	margin:0px;
+}
+.header ul{
+	list-style:none;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+.header ul li{
+	display:inline;
+	font-size:55px;
+	margin:auto 65px;
+	padding:5px;
+}
+.header ul li:hover{
+	padding:5px;
+	background-color:#41a0a5;
+	cursor:pointer;
+	box-shadow:5px 5px 5px black;
+	transition:0.5s;
+}
+
+.centre{
+	width:1350px;
+	background: url(../images/pattern.jpg) no-repeat;
+	height:1200px;
+	margin-left:0px;
+}
+.leftp{
+	height:1200px;
+	background-color:inherit;
+	width:20%;
+	float:left;
+}
+.body{
+	height:1200px;
+	background-color:#bad34442;
+	width:60%;
+	float:left;
+}
+.rightp{
+	height:1200px;
+	background-color:inherit;
+	width:20%;
+	float:left;
+}
+.prebody{
+	height:200px;
+	background-color:#bad344;	
+}
+.content{
+	height:800px;
+	background-color:inherit;	
+}
+.postbody{
+	height:200px;
+	background-color:#bad344;	
+}
+
+.footer{
+	width:1350px;
+	background-color:#52c3c9;
+	height:200px;
+	margin-left:0px;
+}
+.a{
+	width:80%;
+	height:200px;
+	float:left;
+}
+.a ul{
+	margin-top:70px;
+	list-style:images/pattern;
+}
+.a ul li{
+	height:50px;
+	width:50px;
+	display:inline;
+	background-color:#bad344;
+	font-size:40px;
+	margin:10px;
+}
+.a ul li:hover{
+	cursor:pointer;
+	box-shadow:5px 5px 5px black;
+	transition:0.5s;
+}
+.b{
+	width:20%;
+	height:200px;
+	float:right;
+	font-size:20px;
+}
